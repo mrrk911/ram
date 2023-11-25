@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body{
+    background-color: black;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.navbar{
+    font-family: "Trirong", serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(45deg, red, blue);
+    height: 50px;
+}
+.navbar-left{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-option{
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: #ffffff;   
+}
+.nav-option:hover{
+    color: red;
+}
+
+.profile-pic{
+    width: 250px;
+    margin-top: 50px;
+    box-shadow: #ffffff 4px;
+    transition: transform 0.3s ease;
+}
+.profile-pic:hover{
+    transform: translate(-20px, 20px);
+}
+.contact{
+    padding: 150px;
+    padding-bottom: 0px;
+}
+@keyframes flowingGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.name{
+    background: linear-gradient(to right, blue, red, blue, red);
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flowingGradient 5s linear infinite;
+}
+.icons{
+    margin-right: 12px;
+    color: #0eff6a;
+    margin-bottom: 10px;
+}
+.about{
+    padding: 100px;
+    padding-bottom: 0;
+}
+.about-text{
+    padding-left: 50px;
+    font-size: 18px;
+}
+.course-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#skills{
+    padding: 100px;
+    padding-top: 0;
+}
+#projects{
+    padding: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+@keyframes flowingGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.projcttitle{
+    background: linear-gradient(to left, yellow, black, yellow, black);
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flowingGradient 5s linear infinite;
+}
+.signup{
+    background-color: gray;
+    border-radius: 10px;
+}
+.project1{
+    background-color: gray;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+}
+.project2{
+    background-color: gray;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+}
+.project1:hover{
+    background-color: #000;
+    color: maroon;
+}
+.project2:hover{
+    background-color: #000;
+    color: maroon;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
